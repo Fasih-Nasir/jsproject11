@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        document.write("<h2>Question:1 Ek array mein integers ki series banao, aur phir usmein slice() ka istemal karke kisi specific range ke elements ko nikaal kar ek naya array banao.</h2>")
+let arr1=[1,2,3,4,5,6,7,8,9,10]
+document.write(arr1+"<br>")
+
+let arr2=arr1.slice(0,5)
+document.write(arr2+"<br>")
+document.write("<h2>Question:2 Ek array di gayi hai. Us array mein splice() ka istemal karke kuch elements hatao aur unhein ek alag array mein store karo..</h2>")
+let arr3=[" (1) Name:Fasihnasir "," (2) Class:MWF"," (3) Batch:11 "," (4) Sir: Rizwan Bhatti"]
+document.write(arr3 +"<Br>")
+
+arr3.splice(1,1);
+document.write(arr3)
+document.write("<h2>Question:3 Ek array di gayi hai. Us array ko shift() karke uska pehla element hatao aur usse ek variable mein store karo.</h2>")
+ 
+let arr4=["(1) Name:Fasihnasir "," (2) Class:MWF"," (3) Batch:11 "," (4) Sir: Rizwan Bhatti"]
+document.write(arr4+"<br>")
+arr4.shift()
+document.write(arr4+"<br>")
+document.write("<h2>Question:4 Ek array di gayi hai. Us array mein unshift() ka istemal karke ek naya element add karo..</h2>")
+let arr6=["(1) Name:Fasihnasir "," (2) Class:MWF"," (3) Batch:11 "," (4) Sir: Rizwan Bhatti"]
+document.write(arr6+"<Br>")
+arr6.unshift("(0) BIO")
+document.write(arr6)
+document.write("<h2>Question:5 Ek array di gayi hai. Us array mein push() ka istemal karke ek naya element add karo.</h2>")
+let arr7=["(1) Name:Fasihnasir "," (2) Class:MWF"," (3) Batch:11 "," (4) Sir: Rizwan Bhatti"]
+document.write(arr7 +"<br>")
+arr7.push(" (5)Course:App And Web")
+document.write(arr7)
+document.write("<h2>Question:6 Ek array di gayi hai. Us array mein pop() ka istemal karke ek element remove karo aur usse ek variable mein store karo..</h2>")
+document.write(arr7+"<br>")
+arr7.pop()
+document.write(arr7)
+// document.write("<h2>Question:7 Ek array di gayi hai. Us array ko slice() ka istemal karke uske kuch elements ko naye array mein move karo aur original array ko intact rakho.</h2>")
+</script>
+</body>
+</html>
